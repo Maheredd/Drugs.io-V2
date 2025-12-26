@@ -1,0 +1,19 @@
+name: admet_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - flask
+  - flask-cors
+  - rdkit
+  - scikit-learn
+  - joblib
+  - xgboost
+  - pandas
+  - numpy
+  - reportlab
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - gunicorn
